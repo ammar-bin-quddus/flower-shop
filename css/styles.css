@@ -7,6 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* banner section start  */
 #banner-container {
     max-width: 1920px;
     height: 593px;
@@ -55,3 +56,61 @@
     border: none;
     border-radius: 5px;
 }
+
+/* banner section end */
+
+/* featured flower section start */
+
+#featured-flowers {
+    max-width: 965px;
+    height: 593px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
+#featured-flowers-title {
+    width: 500px;
+    height: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+#featured-flowers-card {
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.image-card {
+    width: calc(100%/3);
+    height: 90%;
+    /* border: 1px solid red; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+}
+
+.image-card:nth-child(1) {
+    background-image: url(../images/featured1.png);
+    background-color: #f2dee8;
+}
+.image-card:nth-child(2) {
+    background-image: url(../images/featured2.png);
+    background-color: #daf0f1;
+}
+.image-card:nth-child(3) {
+    background-image: url(../images/featured3.png);
+    background-color: #e4ecdc;
+}
+
+/* featured flower section end */
